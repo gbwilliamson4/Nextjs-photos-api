@@ -33,7 +33,7 @@ export default function SearchPage() {
                 console.error(error)
                 setSearchResultsLoadingIsError(true)
             } finally {
-                setSearchResultsLoading(false)
+                setSearchResultsLoading(false) // this finally block is what takes away the spinner when images have been fetched.
             }
 
             

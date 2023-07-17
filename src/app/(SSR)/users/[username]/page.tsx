@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Alert } from "@/components/bootstrap";
 
 interface PageProps {
-    params: { username: string },
+    params: { username: string }, // must be the same as the directory name in brackets. In this case, [username]
 }
 
 async function getUser(username: string): Promise<UnsplashUser> {

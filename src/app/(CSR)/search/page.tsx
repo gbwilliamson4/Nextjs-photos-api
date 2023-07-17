@@ -9,5 +9,5 @@ export const metaata = {
 
 
 export default function Page() {
-    return <><SearchPage /></>
+    return <><SearchPage /></> // SearchPage is a client component. In this case, all the functionality happens in that component and we import it here for rendering.
 }
